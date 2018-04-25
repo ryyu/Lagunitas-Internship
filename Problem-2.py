@@ -25,7 +25,7 @@ def isatom(item):
     iterflatten(list): this function takes one parameter,
     a list. It will perform a flattening operation, turning
     any internal lists to single elements. It does this 
-    using a stack like data structure to do a breadth first search 
+    using a stack like data structure to do a depth first search 
     through the list. This function will return a list containing the 
     flattened input list. 
 '''
